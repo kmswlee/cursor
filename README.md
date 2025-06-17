@@ -18,4 +18,8 @@ Font : JetBrans Mono
 ```
 
 # usage
-// TODO
+**font setting**  
+1. cmd + shift + p
+2. Open User Settings
+3. Paste settings.json
+4. if you want to customize font color, use `Developer : Inspect Editor Tokens and Scopes`
