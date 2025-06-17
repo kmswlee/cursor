@@ -4,7 +4,7 @@ cursor 관련 자료
 # settings
 ```
 migration intellij to cursor
-font, font color
+font, font color, import optimized
 
 - requires extention
 1. Jet Brains Mono. A typeface for developers_
@@ -16,3 +16,6 @@ font, font color
 Theme : Dracula Constrast
 Font : JetBrans Mono
 ```
+
+# usage
+// TODO
