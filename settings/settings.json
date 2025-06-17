@@ -1,0 +1,69 @@
+{
+    "window.commandCenter": true,
+    "editor.fontLigatures": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "JetBrains Mono",
+    "workbench.colorTheme": "Darcula Contrast",
+    "editor.semanticHighlighting.enabled": true,
+    "editor.semanticTokenColorCustomizations": {
+      "enabled": true,
+      "rules": {
+        "variable": {
+          "foreground": "#D89BB4",
+          "fontStyle": ""
+        },
+        "annotation": {
+          "foreground": "#bbb529",
+          "fontStyle": ""
+        },
+        "annotationMember": {
+          "foreground": "#A9B7C6",
+          "fontStyle": ""
+        },
+        "parameter": {
+          "foreground": "#0EECA9",
+          "fontStyle": ""
+        },
+        "method.declaration.public:java": {
+          "foreground": "#FFC66D",
+          "fontStyle": ""
+        },
+        "method": {
+          "foreground": "#4795e8",
+          "fontStyle": ""
+        },
+        "method.static.public:java": {
+          "foreground": "#A9B7C6",
+          "fontStyle": ""
+        },
+        "class.public.generic.constructor:java": {
+          "foreground": "#A9B7C6",
+          "fontStyle": ""
+        },
+        "namespace:java": {
+          "foreground": "#A9B7C6",
+          "fontStyle": ""
+        },
+        "enumMember.static.readonly.public.importDeclaration:java": {
+          "foreground": "#9876AA",
+          "fontStyle": ""
+        },
+        "method.static.public.generic:java": {
+          "foreground": "#A9B7C6",
+          "fontStyle": "italic"
+        },
+      }
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "name": "Java Annotations",
+                "scope": ["storage.type.annotation.java","punctuation.definition.annotation.java"],
+                "settings": {
+                    "foreground": "#bbb529",  
+                    "fontStyle": ""           
+                }
+            },
+        ]
+    }
+}
